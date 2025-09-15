@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+::selection {
+  background: #dbb97e;  /* amber-500 */
+  color: #1f2937;       /* gray-800 */
+}
