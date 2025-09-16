@@ -68,7 +68,7 @@ export default function Header() {
 
                 <div>
                     <Link to={'/contact'}>
-                        <button className='border px-4 py-2 bg-[#AB854F] hover:bg-[#82581b] text-white font-semibold transition-all duration-150' >Book Now</button>
+                        <button className='border px-4 py-2 bg-[#AB854F] hover:bg-[#82581b] text-white font-semibold hidden md:block transition-all duration-150' >Book Now</button>
                     </Link>
                 </div>
 
